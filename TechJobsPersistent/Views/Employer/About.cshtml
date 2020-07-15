@@ -1,1 +1,1 @@
-﻿@using TechJobsPersistent.ViewModels;@model AddEmployerViewModel;<h1>Employer: Name</h1>-- new change<div>    <p>Name: name</p>    <p>Location: location</p></div>
+﻿@using TechJobsPersistent.Models;@model Employer;<h1>Employer: @Model.Name</h1><div class="form-group">    <h5>Employer Name: @Model.Name</h5>    <h5>Employer Location: @Model.Location</h5></div>    
